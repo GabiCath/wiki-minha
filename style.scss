@@ -1,9 +1,28 @@
-$favorito-color: aquamarine;
-
-.favorito1 {
-  background-color: $favorito-color;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.favorito2 {
-  background-color: $favorito-color;
+body {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, main {
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: rosybrown;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
 }
