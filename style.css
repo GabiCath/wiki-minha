@@ -19,10 +19,25 @@ main {
   flex: 1;
 }
 
+#flor {
+  width: 30%;
+}
+
 footer {
   background-color: rosybrown;
   color: white;
   text-align: center;
   padding: 10px 0;
   width: 100%;
+}
+
+#favorito1, #favorito2 {
+  width: 100%;
+  text-align: center;
+}
+
+#favorito1 img, #favorito2 img {
+  width: 600px;
+  height: 300px;
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
