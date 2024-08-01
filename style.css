@@ -43,6 +43,11 @@ figcaption {
   color: crimson;
 }
 
+#audio {
+  padding-top: 2px;
+  margin: 2px;
+}
+
 h2 {
   color: white;
   font-size: 2rem;
