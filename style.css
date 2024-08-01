@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: pink;
+  background-color: teal;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -23,6 +23,22 @@ main {
   width: 30%;
 }
 
+h1 {
+  color: black;
+}
+
+p {
+  color: purple;
+}
+
+figcaption {
+  color: crimson;
+}
+
+h2 {
+  color: white;
+}
+
 footer {
   background-color: rosybrown;
   color: white;
@@ -31,22 +47,30 @@ footer {
   width: 100%;
 }
 
-#favorito1, #favorito2 {
+#favorito1, #favorito2, #favorito3 {
   width: 100%;
   text-align: center;
 }
 
 #favorito1 {
-  background-color: red;
+  background-color: crimson;
   padding: 0;
 }
 
 #favorito2 {
-  background-color: purple;
+  background-color: orangered;
+}
+
+#favorito3 {
+  background-color: green;
 }
 
 #favorito1 img, #favorito2 img {
   width: 600px;
   height: 300px;
   max-width: 100%;
+}
+
+#lista1, #lista2, #lista3 {
+  list-style-type: none;
 }/*# sourceMappingURL=style.css.map */
