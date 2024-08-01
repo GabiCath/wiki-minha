@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
 body {
@@ -23,12 +25,18 @@ main {
   width: 30%;
 }
 
+#pheader {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 h1 {
   color: black;
+  font-size: 3rem;
 }
 
 p {
-  color: purple;
+  color: whitesmoke;
 }
 
 figcaption {
@@ -37,6 +45,7 @@ figcaption {
 
 h2 {
   color: white;
+  font-size: 2rem;
 }
 
 footer {
@@ -45,6 +54,7 @@ footer {
   text-align: center;
   padding: 10px 0;
   width: 100%;
+  font-size: 2rem;
 }
 
 #favorito1, #favorito2, #favorito3 {
@@ -73,4 +83,7 @@ footer {
 
 #lista1, #lista2, #lista3 {
   list-style-type: none;
+  font-weight: bold;
+  font-size: 2rem;
+  color: gray;
 }/*# sourceMappingURL=style.css.map */

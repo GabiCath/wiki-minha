@@ -1,78 +1,91 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  
+  body {
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, main {
+    padding: 20px;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  #flor {
+    width: 30%;
+  }
+  
+  #pheader {
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: black;
+    font-size: 3rem;
+  }
+  
+  p {
+    color: whitesmoke;
+  }
+  
+  figcaption {
+    color: crimson;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 2rem;
+  }
 
-body {
-  background-color: teal;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-header, main {
-  padding: 20px;
-}
-
-main {
-  flex: 1;
-}
-
-
-
-#flor {
-  width: 30%;
-}
-
-h1 {
-  color: black;
-}
-
-p {
-  color: purple;
-}
-
-figcaption {
-  color: crimson;
-}
-
-h2 {
-  color: white;
-}
-
-footer {
-  background-color: rosybrown;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  width: 100%;
-}
-
-#favorito1, #favorito2, #favorito3 {
-  width: 100%;
-  text-align: center;
-}
-
-#favorito1 {
-  background-color: crimson;
-  padding: 0;
-}
-
-#favorito2 {
-  background-color: orangered;
-}
-
-#favorito3 {
-  background-color: green;
-}
-
-#favorito1 img, #favorito2 img {
-  width: 600px;
-  height: 300px;
-  max-width: 100%;
-}
-
-#lista1, #lista2, #lista3 {
-  list-style-type: none;
-}
+  
+  footer {
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 2rem;
+  }
+  
+  #favorito1, #favorito2, #favorito3 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #favorito1 {
+    background-color: crimson;
+    padding: 0;
+  }
+  
+  #favorito2 {
+    background-color: orangered;
+  }
+  
+  #favorito3 {
+    background-color: green;
+  }
+  
+  #favorito1 img, #favorito2 img {
+    width: 600px;
+    height: 300px;
+    max-width: 100%;
+  }
+  
+  #lista1, #lista2, #lista3 {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 2rem;
+    color: gray;
+  }
+  
