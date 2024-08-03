@@ -37,15 +37,18 @@ h1 {
 
 p {
   color: whitesmoke;
+  margin-top: 10px;
 }
 
 figcaption {
   color: crimson;
+  margin: 10px;
 }
 
 #audio {
   padding-top: 2px;
-  margin: 2px;
+  margin-top: 2px;
+  margin: 20px;
 }
 
 h2 {
@@ -84,6 +87,17 @@ footer {
   width: 600px;
   height: 300px;
   max-width: 100%;
+}
+
+iframe{
+  width: 600px;
+  height: 300px;
+  max-width: 100%;
+}
+
+#linkedin, #github {
+  width: 100px;
+  height: 100px;
 }
 
 #lista1, #lista2, #lista3 {
